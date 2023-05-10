@@ -4,18 +4,9 @@ import pandas as pd
 import streamlit as st
 import time
 import pymongo
-from dotenv import load_dotenv
 import os
 from datetime import datetime, timedelta
 
-# Load the environment variables from the .env file
-load_dotenv()
-
-# Access the environment variables for Twitter API
-os.environ['TWITTER_API_KEY'] = 'orosGOAS7p5WhVoSTsFSiboWe'
-os.environ['TWITTER_API_SECRET'] = 't1CHilQSNixa9Rbo5UhtwrVv3gXNtZ11NO6LNUp8A0TtNs6p5B'
-os.environ['TWITTER_ACCESS_TOKEN'] = '1854579217-7ai2jHbAJvqI7VwcjCd6zoOwxWZNUDftgnmpy5d'
-os.environ['TWITTER_ACCESS_TOKEN_SECRET'] = 'rKa5v9TXtzpwc8GzhSmxARLxx1C5KFwW3GPmPelKCXp6c'
 
 # Connect Python with MongoDB
 client = pymongo.MongoClient("mongodb://localhost:27017")
