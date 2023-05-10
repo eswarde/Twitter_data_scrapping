@@ -1,0 +1,6 @@
+Requirements 
+Packages & versions 
+gitpython 3.1.31
+pandas 1.5.3
+pymongo 4.3.3
+snscrape 0.6.2.20230321.dev
